@@ -7,7 +7,6 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./backend:/var/www
       - ./backend/storage:/var/www/storage
     networks:
       - app-network
